@@ -22,7 +22,7 @@ RUN apk add --update --no-cache \
      tar xzf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz && \
      mv hugo /usr/bin/hugo && \
      rm -r hugo_${HUGO_VERSION}_Linux-64bit.tar.gz && \
-     rm -r LICENSE.md && \
+     rm -r LICENSE && \
      rm -r README.md && \
      npm -g config set user root && \
      npm install -g firebase-tools && \
