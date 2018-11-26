@@ -26,7 +26,6 @@ RUN apk add --update --no-cache \
      rm -r README.md && \
      npm -g config set user root && \
      npm install -g firebase-tools && \
-     apk del build-dependencies && \
-     rm /var/cache/apk/*
+     apk del build-dependencies
 
 EXPOSE 1313
