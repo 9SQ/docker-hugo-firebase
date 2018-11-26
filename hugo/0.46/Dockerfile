@@ -2,7 +2,7 @@
 FROM node:alpine
 
 # set hugo version
-ENV HUGO_VERSION=0.51
+ENV HUGO_VERSION=0.46
 ENV HUGO_DOWNLOAD_URL=https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
 
 RUN apk add --update --no-cache --virtual build-dependencies
